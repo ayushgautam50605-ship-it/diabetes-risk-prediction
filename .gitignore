@@ -1,0 +1,26 @@
+# Environment variables and secrets
+.env
+.env.local
+.streamlit/secrets.toml
+
+# SQLite Database files
+*.db
+*.sqlite
+*.sqlite3
+database/*.db
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Logs
+logs/
+*.log
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

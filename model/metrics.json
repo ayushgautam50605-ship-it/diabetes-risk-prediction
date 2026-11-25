@@ -1,0 +1,151 @@
+{
+  "best_model": "LogisticRegression",
+  "uses_scaled_input": true,
+  "feature_columns": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ],
+  "results": {
+    "LogisticRegression": {
+      "accuracy": 0.7077922077922078,
+      "precision": 0.6,
+      "recall": 0.5,
+      "f1_score": 0.5454545454545454,
+      "roc_auc": 0.812962962962963,
+      "confusion_matrix": [
+        [
+          82,
+          18
+        ],
+        [
+          27,
+          27
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.7522935779816514,
+          "recall": 0.82,
+          "f1-score": 0.784688995215311,
+          "support": 100.0
+        },
+        "1": {
+          "precision": 0.6,
+          "recall": 0.5,
+          "f1-score": 0.5454545454545454,
+          "support": 54.0
+        },
+        "accuracy": 0.7077922077922078,
+        "macro avg": {
+          "precision": 0.6761467889908257,
+          "recall": 0.6599999999999999,
+          "f1-score": 0.6650717703349283,
+          "support": 154.0
+        },
+        "weighted avg": {
+          "precision": 0.698891933754319,
+          "recall": 0.7077922077922078,
+          "f1-score": 0.7008015907537438,
+          "support": 154.0
+        }
+      },
+      "uses_scaled_input": true
+    },
+    "DecisionTree": {
+      "accuracy": 0.7597402597402597,
+      "precision": 0.639344262295082,
+      "recall": 0.7222222222222222,
+      "f1_score": 0.6782608695652174,
+      "roc_auc": 0.7622222222222222,
+      "confusion_matrix": [
+        [
+          78,
+          22
+        ],
+        [
+          15,
+          39
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.8387096774193549,
+          "recall": 0.78,
+          "f1-score": 0.8082901554404145,
+          "support": 100.0
+        },
+        "1": {
+          "precision": 0.639344262295082,
+          "recall": 0.7222222222222222,
+          "f1-score": 0.6782608695652174,
+          "support": 54.0
+        },
+        "accuracy": 0.7597402597402597,
+        "macro avg": {
+          "precision": 0.7390269698572185,
+          "recall": 0.7511111111111111,
+          "f1-score": 0.7432755125028159,
+          "support": 154.0
+        },
+        "weighted avg": {
+          "precision": 0.7688023240640903,
+          "recall": 0.7597402597402597,
+          "f1-score": 0.7626954707828778,
+          "support": 154.0
+        }
+      },
+      "uses_scaled_input": false
+    },
+    "RandomForest": {
+      "accuracy": 0.7272727272727273,
+      "precision": 0.6363636363636364,
+      "recall": 0.5185185185185185,
+      "f1_score": 0.5714285714285714,
+      "roc_auc": 0.8112962962962963,
+      "confusion_matrix": [
+        [
+          84,
+          16
+        ],
+        [
+          26,
+          28
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.7636363636363637,
+          "recall": 0.84,
+          "f1-score": 0.8,
+          "support": 100.0
+        },
+        "1": {
+          "precision": 0.6363636363636364,
+          "recall": 0.5185185185185185,
+          "f1-score": 0.5714285714285714,
+          "support": 54.0
+        },
+        "accuracy": 0.7272727272727273,
+        "macro avg": {
+          "precision": 0.7,
+          "recall": 0.6792592592592592,
+          "f1-score": 0.6857142857142857,
+          "support": 154.0
+        },
+        "weighted avg": {
+          "precision": 0.71900826446281,
+          "recall": 0.7272727272727273,
+          "f1-score": 0.7198515769944341,
+          "support": 154.0
+        }
+      },
+      "uses_scaled_input": false
+    }
+  }
+}
